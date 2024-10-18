@@ -6,7 +6,18 @@ public class ContaTerminal {
 	private String nomeCliente;
 	private float saldo;
 	//construtores
-
+	public ContaTerminal() {
+        this.numero = 0; 
+        this.agencia = "0000"; 
+        this.nomeCliente = "Cliente Padrão"; 
+        this.saldo = 0;
+	} 
+	 public ContaTerminal(int numero, String agencia, String nomeCliente, float saldo) {
+	        this.numero = numero;
+	        this.agencia = agencia;
+	        this.nomeCliente = nomeCliente;
+	        this.saldo = saldo;
+	    }
 	//getters
 	public int getNumero() {
 		return numero;

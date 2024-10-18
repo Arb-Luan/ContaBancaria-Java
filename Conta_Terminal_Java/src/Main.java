@@ -33,19 +33,19 @@ public class Main {
     }
 
     public void preencherNomeDoCliente(String name) {
-        conta.setNomeCliente(name);  // Agora está chamando na instância correta
+        conta.setNomeCliente(name);  
     }
 
     public void preencherNumeroDaAgencia(String numberA) {
-        conta.setAgencia(numberA);  // Agora está chamando na instância correta
+        conta.setAgencia(numberA);  
     }
 
     public void preencherNumero(int number) {
-        conta.setNumero(number);  // Agora está chamando na instância correta
+        conta.setNumero(number);  
     }
 
     public void preencherSaldo(float b) {
-        conta.setSaldo(b);  // Agora está chamando na instância correta
+        conta.setSaldo(b);  
     }
 
     public void exibirDados() {
@@ -60,6 +60,6 @@ public class Main {
         Main banco = new Main();
         banco.menu();
         banco.preencherDadosConta();
-        banco.exibirDados();  // Corrigido para chamar o método corretamente
+        banco.exibirDados();  
     }
 }
